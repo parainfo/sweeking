@@ -11,11 +11,11 @@ const routes = [
       Login,
     },
   },
-  // {
-  //   path: '/login',
-  //   name: 'Login',
-  //   component: Login
-  // }
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  }
 ]
 
 const router = createRouter({
